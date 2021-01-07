@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "442359444416",
+    "firebase_url": "https://sideshop-c175c.firebaseio.com",
+    "project_id": "sideshop-c175c",
+    "storage_bucket": "sideshop-c175c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:442359444416:android:bf668e9966ac1762f0ce25",
+        "android_client_info": {
+          "package_name": "com.example.sideshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "442359444416-nj3vvtajasntfo5t4ds546nllpgajtml.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sideshop",
+            "certificate_hash": "820e71458a0753c99c068ea0a960eb9d426ea438"
+          }
+        },
+        {
+          "client_id": "442359444416-iq8vr05r0ctn9452h5nt8j66kmvj00rr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmNcG-hIeJ-vbve7NJVc5jVHntY0_cMwI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "442359444416-iq8vr05r0ctn9452h5nt8j66kmvj00rr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

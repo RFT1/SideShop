@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminCategoryActivity">
+
+    <TextView
+        android:id="@+id/slogan_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Add New Product"
+        android:textAllCaps="true"
+        android:textAlignment="center"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        />
+
+    <LinearLayout
+        android:id="@+id/linear1_category_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/slogan_category"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        >
+
+        <ImageView
+            android:id="@+id/beds"
+            android:layout_width="103dp"
+            android:layout_height="82dp"
+            android:src="@drawable/beds" />
+
+        <ImageView
+            android:id="@+id/tables"
+            android:layout_width="103dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/table" />
+
+        <ImageView
+            android:id="@+id/sofas"
+            android:layout_width="103dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/sofa" />
+        <ImageView
+            android:id="@+id/chests"
+            android:layout_width="103dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/chest" />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear2_category_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear1_category_layout"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        >
+
+        <ImageView
+            android:id="@+id/bookcases"
+            android:layout_width="103dp"
+            android:layout_height="82dp"
+            android:src="@drawable/bookcase" />
+
+        <ImageView
+            android:id="@+id/chairs"
+            android:layout_width="103dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/chair" />
+
+        <ImageView
+            android:id="@+id/mobiles"
+            android:layout_width="103dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/mobiles" />
+        <ImageView
+            android:id="@+id/laptops"
+            android:layout_width="103dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/laptops" />
+
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/check_orders_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="Check New Orders"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20dp"
+        android:layout_above="@+id/admin_logout_btn"
+        />
+
+    <Button
+        android:id="@+id/admin_logout_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="20dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="Logout"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20dp"
+        />
+
+
+
+</RelativeLayout>
